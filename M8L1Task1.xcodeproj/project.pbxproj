@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		0E1061E429E17AAF00072367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1061E329E17AAF00072367 /* AppDelegate.swift */; };
 		0E1061E629E17AAF00072367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1061E529E17AAF00072367 /* SceneDelegate.swift */; };
-		0E1061E829E17AAF00072367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1061E729E17AAF00072367 /* ViewController.swift */; };
-		0E1061EB29E17AAF00072367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1061E929E17AAF00072367 /* Main.storyboard */; };
 		0E1061EE29E17AAF00072367 /* M8L1Task1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E1061EC29E17AAF00072367 /* M8L1Task1.xcdatamodeld */; };
 		0E1061F029E17AB100072367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1061EF29E17AB100072367 /* Assets.xcassets */; };
 		0E1061F329E17AB100072367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1061F129E17AB100072367 /* LaunchScreen.storyboard */; };
+		0E10620229E17CBC00072367 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10620029E17CBC00072367 /* HomeViewController.swift */; };
+		0E10620329E17CBC00072367 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E10620129E17CBC00072367 /* HomeViewController.xib */; };
+		0E10620629E17D2300072367 /* AFHTTp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10620529E17D2300072367 /* AFHTTp.swift */; };
+		0E10620C29E180A800072367 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10620B29E180A800072367 /* User.swift */; };
+		0E10621129E1884300072367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E10621029E1884300072367 /* Main.storyboard */; };
+		1CAF38458B159CFD7BA02A4A /* Pods_M8L1Task1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1D4E197110B0BD33216056 /* Pods_M8L1Task1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1061E029E17AAF00072367 /* M8L1Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M8L1Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1061E329E17AAF00072367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1061E529E17AAF00072367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E1061E729E17AAF00072367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E1061EA29E17AAF00072367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E1061ED29E17AAF00072367 /* M8L1Task1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = M8L1Task1.xcdatamodel; sourceTree = "<group>"; };
 		0E1061EF29E17AB100072367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1061F229E17AB100072367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1061F429E17AB100072367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E10620029E17CBC00072367 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0E10620129E17CBC00072367 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0E10620529E17D2300072367 /* AFHTTp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHTTp.swift; sourceTree = "<group>"; };
+		0E10620B29E180A800072367 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0E10621029E1884300072367 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E1D4E197110B0BD33216056 /* Pods_M8L1Task1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M8L1Task1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E818681BD7E1D557F01E3 /* Pods-M8L1Task1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M8L1Task1.release.xcconfig"; path = "Target Support Files/Pods-M8L1Task1/Pods-M8L1Task1.release.xcconfig"; sourceTree = "<group>"; };
+		A3122AA47F94655CE7256A6B /* Pods-M8L1Task1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M8L1Task1.debug.xcconfig"; path = "Target Support Files/Pods-M8L1Task1/Pods-M8L1Task1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAF38458B159CFD7BA02A4A /* Pods_M8L1Task1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				0E1061E229E17AAF00072367 /* M8L1Task1 */,
 				0E1061E129E17AAF00072367 /* Products */,
+				851160BD4E066E264B21B9CF /* Pods */,
+				5C57895E405575AA5A23CCFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +71,68 @@
 		0E1061E229E17AAF00072367 /* M8L1Task1 */ = {
 			isa = PBXGroup;
 			children = (
+				0E10620A29E180A000072367 /* model */,
+				0E10620429E17D1000072367 /* network */,
+				0E1061FB29E17B2300072367 /* controller */,
+				0E1061FA29E17B0900072367 /* apputils */,
 				0E1061E329E17AAF00072367 /* AppDelegate.swift */,
 				0E1061E529E17AAF00072367 /* SceneDelegate.swift */,
-				0E1061E729E17AAF00072367 /* ViewController.swift */,
-				0E1061E929E17AAF00072367 /* Main.storyboard */,
-				0E1061EF29E17AB100072367 /* Assets.xcassets */,
-				0E1061F129E17AB100072367 /* LaunchScreen.storyboard */,
 				0E1061F429E17AB100072367 /* Info.plist */,
-				0E1061EC29E17AAF00072367 /* M8L1Task1.xcdatamodeld */,
 			);
 			path = M8L1Task1;
+			sourceTree = "<group>";
+		};
+		0E1061FA29E17B0900072367 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				0E10621029E1884300072367 /* Main.storyboard */,
+				0E1061EF29E17AB100072367 /* Assets.xcassets */,
+				0E1061F129E17AB100072367 /* LaunchScreen.storyboard */,
+				0E1061EC29E17AAF00072367 /* M8L1Task1.xcdatamodeld */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		0E1061FB29E17B2300072367 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E10620029E17CBC00072367 /* HomeViewController.swift */,
+				0E10620129E17CBC00072367 /* HomeViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0E10620429E17D1000072367 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				0E10620529E17D2300072367 /* AFHTTp.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		0E10620A29E180A000072367 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0E10620B29E180A800072367 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5C57895E405575AA5A23CCFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1D4E197110B0BD33216056 /* Pods_M8L1Task1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851160BD4E066E264B21B9CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3122AA47F94655CE7256A6B /* Pods-M8L1Task1.debug.xcconfig */,
+				645E818681BD7E1D557F01E3 /* Pods-M8L1Task1.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1061F729E17AB100072367 /* Build configuration list for PBXNativeTarget "M8L1Task1" */;
 			buildPhases = (
+				464833C453F23E9D78C8D76D /* [CP] Check Pods Manifest.lock */,
 				0E1061DC29E17AAF00072367 /* Sources */,
 				0E1061DD29E17AAF00072367 /* Frameworks */,
 				0E1061DE29E17AAF00072367 /* Resources */,
+				9BC881C589C9F051411175FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 0E1061D729E17AAF00072367;
+			packageReferences = (
+				0E10620729E17D9C00072367 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0E1061E129E17AAF00072367 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,35 +200,72 @@
 			files = (
 				0E1061F329E17AB100072367 /* LaunchScreen.storyboard in Resources */,
 				0E1061F029E17AB100072367 /* Assets.xcassets in Resources */,
-				0E1061EB29E17AAF00072367 /* Main.storyboard in Resources */,
+				0E10620329E17CBC00072367 /* HomeViewController.xib in Resources */,
+				0E10621129E1884300072367 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		464833C453F23E9D78C8D76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M8L1Task1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC881C589C9F051411175FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M8L1Task1/Pods-M8L1Task1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M8L1Task1/Pods-M8L1Task1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M8L1Task1/Pods-M8L1Task1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E1061DC29E17AAF00072367 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E10620629E17D2300072367 /* AFHTTp.swift in Sources */,
 				0E1061EE29E17AAF00072367 /* M8L1Task1.xcdatamodeld in Sources */,
-				0E1061E829E17AAF00072367 /* ViewController.swift in Sources */,
+				0E10620C29E180A800072367 /* User.swift in Sources */,
 				0E1061E429E17AAF00072367 /* AppDelegate.swift in Sources */,
 				0E1061E629E17AAF00072367 /* SceneDelegate.swift in Sources */,
+				0E10620229E17CBC00072367 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E1061E929E17AAF00072367 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E1061EA29E17AAF00072367 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E1061F129E17AB100072367 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +393,7 @@
 		};
 		0E1061F829E17AB100072367 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3122AA47F94655CE7256A6B /* Pods-M8L1Task1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +421,7 @@
 		};
 		0E1061F929E17AB100072367 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645E818681BD7E1D557F01E3 /* Pods-M8L1Task1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +469,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E10620729E17D9C00072367 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		0E1061EC29E17AAF00072367 /* M8L1Task1.xcdatamodeld */ = {
